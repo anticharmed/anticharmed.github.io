@@ -3,6 +3,7 @@ layout: null
 sitemap: false
 ---
 
+// Updated search index - forcing regeneration
 var store = [
   {%- for c in site.collections -%}
     {%- if forloop.last -%}

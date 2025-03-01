@@ -25,14 +25,6 @@
   margin-bottom: 2em;
   z-index: 1;
 
-  @include breakpoint($medium) {
-    margin-top: (-1.5 * $site-logo-height) / 2;
-  }
-
-  @include breakpoint($large) {
-    margin-top: (-2 * $site-logo-height) / 2;
-  }
-
   img {
     width: 100%;
   }
@@ -65,10 +57,6 @@
 .page-sidebar {
   font-size: 0.75rem;
 
-  @include breakpoint($large) {
-    text-align: center;
-  }
-
   .page-date,
   .read-time {
     font-family: $meta-font-family;
@@ -77,19 +65,12 @@
   }
 
   .read-time {
-    @include breakpoint($large) {
-      display: block;
-    }
+    display: inline;
   }
 
   .read-time + .page-date::before {
     content: "\2022";
     padding: 0 0.5em;
-
-    @include breakpoint($large) {
-      content: "";
-      padding: 0;
-    }
   }
 }
 
@@ -102,10 +83,6 @@
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    display: block;
-  }
 }
 
 .page-taxonomies-title {
@@ -114,15 +91,6 @@
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
-
-  @include breakpoint($large) {
-    display: inline-block;
-    margin: 1.5em 0 0.5em;
-    padding: 0;
-    font-size: 0.75rem;
-    font-weight: normal;
-    text-transform: uppercase;
-  }
 }
 
 .page-taxonomies {
@@ -130,11 +98,6 @@
   margin-right: 1em;
   padding: 0;
   list-style: none;
-
-  @include breakpoint($large) {
-    display: block;
-    margin: 0 0 1.5em 0;
-  }
 }
 
 .page-taxonomy {
@@ -157,12 +120,6 @@
 .page-pagination {
   margin: 2em 0 1em;
   clear: both;
-
-  @include breakpoint($large) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 .page-previous,
@@ -176,11 +133,6 @@
 
 .page-next {
   margin-top: 1em;
-
-  @include breakpoint($large) {
-    margin-top: 0;
-    text-align: right;
-  }
 }
 
 .page-pagination-label {
@@ -198,7 +150,7 @@
 }
 
 /*
-   Wide Layout Overrides
+   Layout Overrides
    ========================================================================== */
 
 .layout--home,
@@ -220,35 +172,21 @@
 
 .layout--post {
   .page-wrapper {
-    @include breakpoint($large) {
-      display: grid;
-      grid-column-gap: 3em;
-      grid-row-gap: 0;
-      grid-template-columns: 175px 1fr;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-    }
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: $main-sidebar-max-width;
   }
 
   .page-header {
-    @include breakpoint($large) {
-      grid-column: 1 / -1;
-      clear: both; // needed for floated layout
-    }
+    clear: both;
   }
 
   .page-sidebar {
-    margin-bottom: 1em;
-
-    @include breakpoint($large) {
-      float: left; // display: grid fallback
-      width: 18%; // display: grid fallback
-    }
-
-    @supports (display: grid) {
-      width: auto;
-    }
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
 
     a {
       color: inherit;
@@ -261,20 +199,11 @@
   }
 
   .page-content {
-    @include breakpoint($large) {
-      float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
-      min-width: 0;
-    }
-
-    @supports (display: grid) {
-      width: auto;
-      margin: 0;
-    }
+    width: 100%;
+    min-width: 0;
   }
 
   .page-share {
-    // display: grid fallback
     clear: both;
   }
 }
