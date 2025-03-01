@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: mmistakes/so-simple-theme
+remote_theme: mmistakes/so-simple-theme@3.2.0
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Anti Charmed"
@@ -71,6 +71,10 @@ tag_archive_path: "/tags/#"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Override theme defaults
+theme_overrides:
+  layouts: true
 
 plugins:
   - jekyll-seo-tag
