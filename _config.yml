@@ -14,13 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 remote_theme: mmistakes/so-simple-theme@3.2.0
-skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Anti Charmed"
 description: "Trying to understand reality."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://anticharmed.github.io/"
-logo: "/images/ac.svg"
+logo: "/images/ac.svg"  # Default logo
+logo_dark: "/images/ac-white.svg"  # Dark theme logo
+logo_light: "/images/ac.svg"  # Light theme logo
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -112,3 +114,5 @@ footer_links:
 
 include:
   - _pages
+
+repository: anticharmed/anticharmed.github.io
