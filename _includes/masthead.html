@@ -2,7 +2,13 @@
   <div class="wrap">
     {% if site.logo %}
       <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
-        <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+        {% if site.skin contains 'dark' and site.logo_dark %}
+          <img src="{{ site.logo_dark | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+        {% elsif site.skin contains 'light' and site.logo_light %}
+          <img src="{{ site.logo_light | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+        {% else %}
+          <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+        {% endif %}
       </a>
     {% endif %}
     {% assign page_image = page.image.path | default: page.image %}
