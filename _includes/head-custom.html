@@ -1,21 +1,9 @@
 <!-- start custom head snippets -->
 
-{% if site.skin contains 'dark' and site.favicon_dark %}
-  <link rel="icon" type="image/png" href="{{ site.favicon_dark | relative_url }}" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg_dark | default: '/images/favicons/favicon.svg' | relative_url }}" />
-  <link rel="shortcut icon" href="{{ site.favicon_ico_dark | default: '/images/favicons/favicon.ico' | relative_url }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon_dark | default: '/images/favicons/apple-touch-icon.png' | relative_url }}" />
-{% elsif site.skin contains 'light' and site.favicon_light %}
-  <link rel="icon" type="image/png" href="{{ site.favicon_light | relative_url }}" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg_light | default: '/images/favicons/favicon.svg' | relative_url }}" />
-  <link rel="shortcut icon" href="{{ site.favicon_ico_light | default: '/images/favicons/favicon.ico' | relative_url }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon_light | default: '/images/favicons/apple-touch-icon.png' | relative_url }}" />
-{% else %}
-  <link rel="icon" type="image/png" href="{{ '/images/favicons/favicon-96x96.png' | relative_url }}" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicons/favicon.svg' | relative_url }}" />
-  <link rel="shortcut icon" href="{{ '/images/favicons/favicon.ico' | relative_url }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/favicons/apple-touch-icon.png' | relative_url }}" />
-{% endif %}
+<link rel="icon" type="image/png" href="{{ '/images/favicons/favicon-96x96.png' | relative_url }}" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{ '/images/favicons/favicon.svg' | relative_url }}" />
+<link rel="shortcut icon" href="{{ '/images/favicons/favicon.ico' | relative_url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/favicons/apple-touch-icon.png' | relative_url }}" />
 <meta name="apple-mobile-web-app-title" content="ac" />
 <link rel="manifest" href="{{ '/images/favicons/site.webmanifest' | relative_url }}" />
 

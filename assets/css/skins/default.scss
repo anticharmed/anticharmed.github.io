@@ -42,3 +42,13 @@ $base0e: #6c71c4 !default;
 $base0f: #d33682 !default;
 
 @import "so-simple/skin";
+
+/* Custom styles */
+.site-nav {
+  font-family: $sans-serif-font-family;
+}
+
+/* Make site title font consistent across all pages */
+.site-title {
+  font-family: $serif-font-family;
+}
