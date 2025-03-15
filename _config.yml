@@ -93,18 +93,19 @@ defaults:
       type: posts
     values:
       layout: post
-      share: true
+      share: false
+      author: false
 
 # Site Author
-author:
-  name:
-  picture:
-  email:
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
+author: false
+#  name:
+#  picture:
+#  email:
+#  twitter:
+#  links:
+#    - title:
+#      url:
+#      icon:
 
 # Footer Links
 footer_links:
