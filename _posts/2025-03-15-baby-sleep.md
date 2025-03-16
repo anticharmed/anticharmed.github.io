@@ -8,9 +8,13 @@ categories:
 tags:
 ---
 
+<<<<<<< Updated upstream
 I've never read _Bringing Up Bébé_ by Pamela Druckerman, but I asked ChatGPT about it 😉. I was interested because I remembered folks mentioning that French attitudes on infant sleep differ from what is common in America.
 
 It turns out that some of the insights are both intuitive and backed by independent research. Here are the key idea I took away:  
+=======
+I've never read _Bringing Up Bébé_ by Pamela Druckerman, but I asked ChatGPT about it 😉. I was interested because I remembered folks mentioning that French attitudes on infant sleep can differ from what is common in America. The insights are both intuitive and backed by other research. Here are the key ideas I took away:  
+>>>>>>> Stashed changes
 
 ## On Sleep
 

@@ -109,6 +109,9 @@ author: false
 
 # Footer Links
 footer_links:
+  - title: X
+    url: https://x.com/anti_charmed
+    icon: fa-brands fa-x-twitter
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
