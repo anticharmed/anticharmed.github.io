@@ -27,6 +27,9 @@
   display: none;
   margin-bottom: 1em;
   text-align: center;
+  font-family: $sans-serif-font-family;
+  letter-spacing: 0.01em;
+  color: #555;
 
   ul {
     display: block;
@@ -52,6 +55,7 @@
     text-decoration: none;
     border: 1px solid;
     border-radius: $border-radius;
+    color: #555;
   }
 
   @include breakpoint($medium) {
@@ -121,6 +125,10 @@
   padding: 2em 0;
   text-align: center;
   border-top: 1px solid;
+  font-family: $sans-serif-font-family;
+  font-size: 16px;
+  color: #555;
+  letter-spacing: 0.01em;
 
   .social-icons {
     margin-bottom: 0.5em;
