@@ -8,6 +8,11 @@ html {
 
 body {
   border-top: solid 0.25em;
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 1.2em; /* Reduced spacing between paragraphs */
 }
 
 blockquote,
@@ -53,6 +58,7 @@ h5,
 h6 {
   font-family: $headline-font-family;
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+  letter-spacing: -0.02em;
 }
 
 h1 {

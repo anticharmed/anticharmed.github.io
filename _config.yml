@@ -31,13 +31,13 @@ mathjax:
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
   - name: "EB Garamond"
     weights: "400,400i,700,700i"
+  - name: "Inter"
+    weights: "400,500"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+#disqus:
+#  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: "anti_charmed"
 
