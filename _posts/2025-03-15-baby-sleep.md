@@ -10,12 +10,12 @@ tags:
 
 I've never read _Bringing Up Bébé_ by Pamela Druckerman, but I asked ChatGPT about it 😉. I was interested because I remembered folks mentioning that French attitudes on infant sleep differ from what is common in America.
 
-It turns out that some of the insights are both intuitive and backed by independent research. Here are the key idea I took away:  
+It turns out that some of the insights are both intuitive and backed by independent research. Here are the key ideas I took away:  
 
 ## On Sleep
 
 1. **Pause briefly before responding to night wakings.**  
-   Newborns often make noises or cry briefly in their sleep, especially during REM cycles. Instead of immediately intervening, it's helpful to wait a few moments to see if the baby naturally settles back to sleep. However, if a baby is clearly hungry or distressed, responding promptly is important.  
+   Newborns often make noises or cry briefly in their sleep, especially during REM cycles. Instead of immediately intervening, it's helpful to wait a few moments to see if the baby naturally settles back to sleep. This can be helpful developmentally for the baby to link sleep cycles.  
 
 2. **If the baby remains unsettled, then respond.**  
    After waiting a short time to observe whether the baby is truly awake and in need, you should step in to soothe and feed as needed.  

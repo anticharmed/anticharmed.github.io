@@ -8,16 +8,16 @@
 @import "so-simple/notices";
 
 /* Colors */
-$base-color: #000 !default;
-$text-color: #000 !default;
-$accent-color: #34374C !default;
+$base-color: #222 !default;
+$text-color: #222 !default;
+$accent-color: #111 !default;
 $nav-color: #fff !default;
 $background-color: #fff !default;
-$nav-background-color: #000 !default;
+$nav-background-color: #111 !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
-$primary-color: #000 !default;
+$primary-color: #111 !default;
 $success-color: #62c462 !default;
 $warning-color: #f89406 !default;
 $danger-color: #ee5f5b !default;
