@@ -27,5 +27,5 @@ How did you go bankrupt?
 Two ways. Gradually, then suddenly.  
 — Ernest Hemingway  
 
-Beauty will save the world.
-— Fyodor Dostoevsky  
+Beauty will save the world.  
+— Fyodor Dostoevsky
