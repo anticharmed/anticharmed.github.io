@@ -22,3 +22,7 @@ My old man taught me two things: “Mind own business” and “Always cut cards
 
 Concordia res parvae crescunt.  
 — Sallust
+
+How did you go bankrupt?
+Two ways. Gradually, then suddenly.
+— Ernest Hemingway  
