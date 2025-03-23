@@ -2,7 +2,7 @@
 title: "Favorite Quotes"
 layout: post
 date: 2025-03-02
-last_modified_at: 2025-03-02
+last_modified_at: 2025-03-22
 categories:
   - Favorite Things
 tags:
@@ -24,5 +24,5 @@ Concordia res parvae crescunt.
 — Sallust
 
 How did you go bankrupt?
-Two ways. Gradually, then suddenly.
+Two ways. Gradually, then suddenly.  
 — Ernest Hemingway  
