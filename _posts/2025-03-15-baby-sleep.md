@@ -2,13 +2,13 @@
 title: "Notes on Newborn Sleep and Feeding"
 layout: post
 date: 2025-03-15
-last_modified_at: 2025-03-15
+last_modified_at: 2025-03-22
 categories:
   - Baby notes
 tags:
 ---
 
-I've never read _Bringing Up Bébé_ by Pamela Druckerman, but I asked ChatGPT about it 😉. I was interested because I remembered folks mentioning that French attitudes on infant sleep can differ from what is common in America. The insights are both intuitive and backed by other research. Here are the key ideas I took away:  
+I've started reading about infant sleep to be prepared as a new father.  These are some notes to remember:  
 
 ## On Sleep
 
@@ -43,7 +43,3 @@ I've never read _Bringing Up Bébé_ by Pamela Druckerman, but I asked ChatGPT a
 
 5. **Feeding structure may help sleep but isn't the only factor.**  
    Ensuring a baby eats enough during the day can support longer sleep stretches, but sleep regulation also depends on factors like developmental stage, sleep environment, and individual temperament.  
-
----
-
-_Bringing Up Bébé_ almost certainly has more to say beyond sleep and feeding. Maybe I'll actually read it someday.  
