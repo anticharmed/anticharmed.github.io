@@ -4,7 +4,7 @@ layout: post
 date: 2025-03-15
 last_modified_at: 2025-03-22
 categories:
-  - Baby notes
+  - Baby Notes
 tags:
 ---
 
